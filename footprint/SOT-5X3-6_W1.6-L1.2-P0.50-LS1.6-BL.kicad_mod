@@ -1,6 +1,7 @@
-(module "SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL" (layer F.Cu) (tedit 65468058)
+(module "SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL" (layer F.Cu) (tedit 659304D9)
   (descr "SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL footprint")
-  (tags "SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL footprint")
+  (tags "SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL footprint C352970")
+  (attr smd)
   (fp_text reference REF** (at 0.000013 -2.699873) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,9 +22,9 @@
   (fp_text user REF** (at 0.000013 4.699822) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (model /Users/christrotter/git/printing/kicad-libraries/footprint/packages3d/SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL.step
+  (model ./kicad-libraries/footprint/packages3d/SOT-5X3-6_W1.6-L1.2-P0.50-LS1.6-BL.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -90))
   )
 )
